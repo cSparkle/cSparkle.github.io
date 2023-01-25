@@ -6,6 +6,7 @@ module.exports = {
     title: `portfolio`,
     siteUrl: `https://www.yourdomain.tld`
   },
+  pathPrefix: `/portfolio`,
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
