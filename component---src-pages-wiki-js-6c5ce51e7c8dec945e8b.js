@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[497],{6607:function(e,t,l){l.r(t),l.d(t,{Head:function(){return r}});var n=l(7294);t.default=()=>n.createElement("main",null,n.createElement("header",null,n.createElement("p",null,"Wiki")));const r=()=>n.createElement("title",null,"Wiki")}}]);
+//# sourceMappingURL=component---src-pages-wiki-js-6c5ce51e7c8dec945e8b.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[682],{5465:function(e,l,t){t.r(l),t.d(l,{Head:function(){return r}});var n=t(7294);l.default=()=>n.createElement("main",null,n.createElement("header",null,n.createElement("p",null,"About"),n.createElement("h1",null,"Cortney Thomas"),n.createElement("h2",null,"Developer & Psychology Nerd")));const r=()=>n.createElement("title",null,"About")}}]);
+//# sourceMappingURL=component---src-pages-about-js-593e74343f955bf13363.js.map

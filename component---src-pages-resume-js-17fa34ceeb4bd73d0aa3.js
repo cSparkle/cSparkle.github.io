@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[903],{9023:function(e,t,l){l.r(t),l.d(t,{Head:function(){return u}});var n=l(7294);t.default=()=>n.createElement("main",null,n.createElement("header",null,n.createElement("p",null,"Resume")));const u=()=>n.createElement("title",null,"Resume")}}]);
+//# sourceMappingURL=component---src-pages-resume-js-17fa34ceeb4bd73d0aa3.js.map

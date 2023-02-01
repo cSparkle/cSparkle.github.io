@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[853],{7219:function(e,t,l){l.r(t),l.d(t,{Head:function(){return r}});var n=l(7294);t.default=()=>n.createElement("main",null,n.createElement("header",null,n.createElement("p",null,"Projects")));const r=()=>n.createElement("title",null,"Projects")}}]);
+//# sourceMappingURL=component---src-pages-projects-js-c42c33b72b2b887333ae.js.map
