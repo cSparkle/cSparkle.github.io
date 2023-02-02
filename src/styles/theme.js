@@ -17,9 +17,13 @@ const appTheme = createTheme({
     },
     typography: {
         h1: {
-            fontFamily: "Roboto",
-            fontSize: "2rem",
+            color: "#3d405b",
+            fontFamily: "Effect Capitals",
+            fontSize: "4rem",
             fontWeight: '800',
+            letterSpacing: ".2rem",
+            textDecoration: "none",
+            wordSpacing: "1rem"
         },
         h2: {
             fontFamily: "Roboto",
