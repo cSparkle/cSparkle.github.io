@@ -1,0 +1,93 @@
+import { createTheme, responsiveFontSizes } from "@mui/material/styles";
+
+const appTheme = createTheme({
+    palette: {
+        background: {
+            main: "#f4f1de"
+        },
+        primary: {
+            main: "#81b29a",
+        },
+        secondary: {
+            main: "#e07a5f",
+        },
+        text: {
+            main: "#3d405b"
+        }
+    },
+    typography: {
+        h1: {
+            fontFamily: "Roboto",
+            fontSize: "2rem",
+            fontWeight: '800',
+        },
+        h2: {
+            fontFamily: "Roboto",
+            fontSize: "3em",
+            fontWeight: '800',
+        },
+        h3: {
+            fontFamily: "Roboto",
+            fontSize: "2.5rem",
+            fontWeight: '600',
+        },
+        h4: {
+            fontFamily: "Roboto",
+            fontSize: "2rem",
+            fontWeight: '600',
+        },
+        h5: {
+            fontFamily: "Roboto",
+            fontSize: "1.5rem",
+            fontWeight: '600',
+        },
+        h6: {
+            fontFamily: "Roboto",
+            fontSize: "1rem",
+            fontWeight: '600',
+        },
+        subtitle1: {
+            fontFamily: "Averia Libre",
+            fontSize: "1.5rem",
+            fontWeight: '600',
+        },
+        subtitle2: {
+            fontFamily: "Averia Libre",
+            fontSize: "1.5rem",
+            fontWeight: '600',
+        },
+        body1: {
+            fontFamily: "Libre Franklin",
+            fontSize: "1.5rem",
+            fontWeight: '600',
+        },
+        body2: {
+            fontFamily: "Libre Franklin",
+            fontSize: "1.5rem",
+            fontWeight: '600',
+        },
+        button: {
+            fontFamily: "Roboto",
+            fontSize: "1.5rem",
+            fontWeight: '600',
+        }
+    }
+});
+
+
+export const theme = responsiveFontSizes(appTheme);
+
+// h1
+// h2
+// h3
+// h4
+// h5
+// h6
+// subtitle1
+// subtitle2
+// body1
+// body2
+// button
+// caption
+// overline
+
