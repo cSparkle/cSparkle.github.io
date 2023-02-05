@@ -6,10 +6,10 @@ const appTheme = createTheme({
             main: "#f4f1de"
         },
         primary: {
-            main: "#81b29a",
+            main: "#e07a5f",
         },
         secondary: {
-            main: "#e07a5f",
+            main: "#81b29a",
         },
         text: {
             main: "#3d405b"
@@ -18,7 +18,7 @@ const appTheme = createTheme({
     typography: {
         h1: {
             color: "#3d405b",
-            fontFamily: "Effect Capitals",
+            fontFamily: "Monoton",
             fontSize: "4rem",
             fontWeight: '800',
             letterSpacing: ".2rem",
@@ -80,18 +80,3 @@ const appTheme = createTheme({
 
 
 export const theme = responsiveFontSizes(appTheme);
-
-// h1
-// h2
-// h3
-// h4
-// h5
-// h6
-// subtitle1
-// subtitle2
-// body1
-// body2
-// button
-// caption
-// overline
-

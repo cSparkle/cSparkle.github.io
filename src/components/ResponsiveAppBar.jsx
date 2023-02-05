@@ -12,6 +12,7 @@ import { Link } from "gatsby";
 import { ThemeProvider } from "@mui/material";
 import "@fontsource/roboto/700.css";
 import { theme } from "../styles/theme";
+import { StyledLink } from "../styles/index";
 
 const pages = ["about", "projects", "wiki", "resume"];
 
@@ -32,6 +33,7 @@ function ResponsiveAppBar() {
                 <Container maxWidth="xl">
                     <Toolbar disableGutters sx={{
                         display: { xs: "flex", md: "flex" },
+                        height: "110px",
                         justifyContent: "space-between"
                     }}>
                         <Typography
@@ -42,7 +44,6 @@ function ResponsiveAppBar() {
                                 display: { xs: "none", md: "flex" },
                                 justifySelf: "flex-start",
                                 margin: 0,
-                                paddingTop: "0.5rem",
                                 width: "auto"
                             }}
                         >
@@ -95,10 +96,8 @@ function ResponsiveAppBar() {
                                 alignSelf: "center",
                                 color: "#3d405b",
                                 display: { xs: "flex", md: "none" },
-                                fontFamily: "Effect Capitals",
-                                fontSize: "2.5rem",
-                                paddingTop: "0.5rem"
-
+                                fontFamily: "Monoton",
+                                fontSize: "2.5rem"
                             }}
                         >
                             CT
@@ -108,11 +107,12 @@ function ResponsiveAppBar() {
                             justifyContent: "space-between",
                             justifySelf: "flex-end",
                             margin: 0,
-                            width: .3
+                            maxWidth: "500px",
+                            width: "40vw"
                         }}
                         >
                             {pages.map((page) => (
-                                <Link to={page}>{page}</Link>
+                                <StyledLink to={page}>{page}</StyledLink>
                             ))}
                         </Box>
                     </Toolbar>
