@@ -10,7 +10,7 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": "JWvSfiF983p7ZNZTUuy2JZwmAasryIs13c04zn4sEXA",
+      "accessToken": "aMbTF3dlxgdTy37Lh5QFt-bV9rBgZ4hom95Oh6fBmsA",
       "spaceId": "j9waukffttug"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-sass"]
