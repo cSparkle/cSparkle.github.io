@@ -26,27 +26,27 @@ const appTheme = createTheme({
             wordSpacing: "1rem"
         },
         h2: {
-            fontFamily: "Roboto",
+            fontFamily: "Libre Franklin",
             fontSize: "3em",
             fontWeight: '800',
         },
         h3: {
-            fontFamily: "Roboto",
+            fontFamily: "Libre Franklin",
             fontSize: "2.5rem",
             fontWeight: '600',
         },
         h4: {
-            fontFamily: "Roboto",
+            fontFamily: "Libre Franklin",
             fontSize: "2rem",
             fontWeight: '600',
         },
         h5: {
-            fontFamily: "Roboto",
+            fontFamily: "Libre Franklin",
             fontSize: "1.5rem",
             fontWeight: '600',
         },
         h6: {
-            fontFamily: "Roboto",
+            fontFamily: "Libre Franklin",
             fontSize: "1rem",
             fontWeight: '600',
         },
@@ -71,7 +71,7 @@ const appTheme = createTheme({
             fontWeight: '600',
         },
         button: {
-            fontFamily: "Roboto",
+            fontFamily: "Libre Franklin",
             fontSize: "1.5rem",
             fontWeight: '600',
         }
