@@ -10,7 +10,6 @@ import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "gatsby";
 import { ThemeProvider } from "@mui/material";
-import "@fontsource/roboto/700.css";
 import { theme } from "../styles/theme";
 import { StyledLink } from "../styles/index";
 
