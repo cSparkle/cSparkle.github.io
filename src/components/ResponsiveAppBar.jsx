@@ -46,7 +46,7 @@ function ResponsiveAppBar() {
                                 width: "auto"
                             }}
                         >
-                            CT
+                            C.Thomas
                         </Typography>
 
                         <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -95,11 +95,10 @@ function ResponsiveAppBar() {
                                 alignSelf: "center",
                                 color: "#3d405b",
                                 display: { xs: "flex", md: "none" },
-                                fontFamily: "Monoton",
                                 fontSize: "2.5rem"
                             }}
                         >
-                            CT
+                            C.Thomas
                         </Typography>
                         <Box sx={{
                             display: { xs: "none", md: "flex" },

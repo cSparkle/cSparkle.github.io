@@ -1,28 +1,17 @@
 @font-face {
   font-display: swap;
-  font-family: "Averia Libre";
+  font-family: "Bungee";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/averia-libre-v16-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: url("/fonts/averia-libre-v16-latin-regular.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */
-    url("/fonts/averia-libre-v16-latin-regular.woff2") format("woff2"),
-    /* Super Modern Browsers */
-    url("/fonts/averia-libre-v16-latin-regular.woff") format("woff"),
-    /* Modern Browsers */
-    url("/fonts/averia-libre-v16-latin-regular.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-    url("/fonts/averia-libre-v16-latin-regular.svg#AveriaLibre") format("svg");
-  /* Legacy iOS */
+  src: url("/fonts/Bungee-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Monoton";
+  font-family: "Bungee Hairline";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/Monoton-Regular.ttf") format("truetype");
+  src: url("/fonts/BungeeHairline-Regular.ttf") format("truetype");
 }
 
 @font-face {
