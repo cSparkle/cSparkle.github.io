@@ -1,24 +1,62 @@
 <template>
   <header class="h-20 w-screen fixed">
     <nav class="flex justify-between items-center p-4 bg-white">
-
-        <img
-          src="../assets/images/cat-logo.jpg"
-          alt="vector drawing of cat in spacesuit floating through space"
-          class="h-16"
-        />
+      <img
+        src="../assets/images/cat-logo.jpg"
+        alt="vector drawing of cat in spacesuit floating through space"
+        class="h-16"
+      />
 
       <ul class="w-3/5 flex justify-between">
-        <RouterLink to="/" class="text-dark-grey font-sans font-medium">Home</RouterLink>
-        <RouterLink to="/about" class="text-dark-grey font-sans font-medium">About</RouterLink>
-        <RouterLink to="/contact" class="text-dark-grey font-sans font-medium">Contact</RouterLink>
+        <RouterLink
+          to="/"
+          class="font-sans font-medium"
+          :class="{
+            'text-bright-green': activeTab === 'home',
+            'text-dark-grey': activeTab !== 'home'
+          }"
+          @click.prevent="setActiveTab('home')"
+          >Home</RouterLink
+        >
+        <RouterLink
+          to="/resume"
+          class="font-sans font-medium"
+          :class="{
+            'text-bright-green': activeTab === 'resume',
+            'text-dark-grey': activeTab !== 'resume'
+          }"
+          @click.prevent="setActiveTab('resume')"
+          >Resume</RouterLink
+        >
+        <RouterLink
+          to="/contact"
+          class="font-sans font-medium"
+          :class="{
+            'text-bright-green': activeTab === 'contact',
+            'text-dark-grey': activeTab !== 'contact'
+          }"
+          @click.prevent="setActiveTab('contact')"
+          >Contact</RouterLink
+        >
       </ul>
     </nav>
   </header>
 </template>
 
-<script setup>
-import { RouterLink } from 'vue-router'
+<script>
+export default {
+  name: 'MainHeader',
+  data() {
+    return {
+      activeTab: 'home'
+    }
+  },
+  methods: {
+    setActiveTab(tabName) {
+      this.activeTab = tabName
+    }
+  }
+}
 </script>
 
 <style scoped>
