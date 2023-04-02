@@ -1,5 +1,5 @@
 <template>
-  <header class="h-20 w-screen fixed bg-dark-grey">
+  <header class="h-24 w-screen fixed bg-dark-grey">
     <nav class="flex justify-between items-center p-4">
       <img
         src="../assets/images/cat-logo.svg"

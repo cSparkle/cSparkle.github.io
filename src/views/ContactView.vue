@@ -1,5 +1,5 @@
 <template>
-  <div class="text-light-grey p-4 min-h-screen">
+  <main class="text-light-grey p-4 min-h-screen">
     <h1 class="text-4xl text-center font-mono mb-4 text-bright-green">Let's Chat!</h1>
     <p class="text-center pt-12">
       The best way to contact me is through
@@ -34,5 +34,5 @@
         /></a>
       </span>
     </p>
-  </div>
+  </main>
 </template>

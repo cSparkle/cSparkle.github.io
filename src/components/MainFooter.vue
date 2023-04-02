@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col justify-center items-center font-sans py-12">
+  <footer class="flex flex-col justify-center items-center font-sans py-12">
     <ul class="flex items-center justify-around w-1/2 mb-4">
       <a href="https://www.linkedin.com/in/cortney-thomas/" rel="noreferrer" target="_blank">
         <img src="@/assets/icons/linkedin.png" alt="LinkedIn logo" class="h-16"
@@ -17,5 +17,5 @@
       >
       on Freepik</small
     >
-  </section>
+  </footer>
 </template>

@@ -2,8 +2,8 @@
   <main>
     <h1 class="text-4xl text-center font-mono text-bright-green">Howdy, friend</h1>
     <p class="text-3xl text-center font-sans mb-12 text-white">The name's Cortney.</p>
-    <section>
-      <a href="#engineer" class="flex flex-col items-center justify-center">
+    <section class="flex flex-col items-center">
+      <a href="#engineer" class="flex flex-col items-center justify-center w-fit">
         <img
           src="../assets/images/developer.svg"
           alt="top down vector drawing of hands coding on a laptop"
@@ -11,10 +11,15 @@
         />
         <p class="text-bright-green font-sans font-medium text-xl flex items-center">
           Software Engineer
-          <img src="../assets/icons/arrow-right-solid.svg" alt="right arrow" class="h-6 ml-2.5" />
+          <img
+            src="../assets/icons/arrow-right-solid.svg"
+            alt="right arrow"
+            aria-label="go to Software Engineer section"
+            class="h-6 ml-2.5"
+          />
         </p>
       </a>
-      <a href="#bookworm" class="flex flex-col items-center justify-center my-16">
+      <a href="#bookworm" class="flex flex-col items-center justify-center my-16 w-fit">
         <img
           src="../assets/images/bookworm.svg"
           alt="front on vector drawing of glasses on top of stacked books next to a coffee mug"
@@ -22,10 +27,15 @@
         />
         <p class="text-bright-green font-sans font-medium text-xl flex items-center">
           Bookworm
-          <img src="../assets/icons/arrow-right-solid.svg" alt="right arrow" class="h-6 ml-2.5" />
+          <img
+            src="../assets/icons/arrow-right-solid.svg"
+            aria-label="go to Bookworm section"
+            alt="right arrow"
+            class="h-6 ml-2.5"
+          />
         </p>
       </a>
-      <a href="#nerd" class="flex flex-col items-center justify-center my-16">
+      <a href="#nerd" class="flex flex-col items-center justify-center my-16 w-fit">
         <img
           src="../assets/images/fantasynerd.svg"
           alt="vector drawing of four costumed individuals at a gaming convention"
@@ -33,7 +43,12 @@
         />
         <p class="text-bright-green font-sans font-medium text-xl flex items-center">
           Fantasy Nerd
-          <img src="../assets/icons/arrow-right-solid.svg" alt="right arrow" class="h-6 ml-2.5" />
+          <img
+            src="../assets/icons/arrow-right-solid.svg"
+            aria-label="go to Fantasy Nerd section"
+            alt="right arrow"
+            class="h-6 ml-2.5"
+          />
         </p>
       </a>
       <section class="bg-bright-green py-12 px-4">
@@ -78,7 +93,7 @@
           <h2 class="text-center text-2xl font-mono font-medium text-dark-grey mt-16">
             Fantasy Nerd!
           </h2>
-          <p class="font-sans pt-8">
+          <p class="font-sans pt-8 pb-20">
             Ever since I was young I've been immersed in all types of fantasy worlds. I love reading
             fantasy books, playing fantasy video and board games, and watching fantasy shows and
             movies. In the last few years, my friends and I have gotten into D&D, playing a home

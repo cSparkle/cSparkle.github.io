@@ -1,5 +1,5 @@
 <template>
-  <div class="text-light-grey">
+  <main class="text-light-grey">
     <h1 class="text-4xl text-center font-mono text-bright-green mb-4">Resumé</h1>
     <section class="p-4">
       <h2 class="text-xl text-white font-mono border-b-2 border-light-grey">Objective</h2>
@@ -150,5 +150,5 @@
         </ul>
       </div>
     </section>
-  </div>
+  </main>
 </template>
