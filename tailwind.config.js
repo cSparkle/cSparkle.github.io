@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,jsx}",
-  ],
+  content: ['./index.html', './src/**/*.{vue,js,jsx}'],
   theme: {
     colors: {
       'bright-green': '#5ae3a9',
@@ -11,11 +8,11 @@ module.exports = {
       'light-green': '#d4fae4',
       'light-grey': '#a6a8a8',
       'medium-grey': '#6e7277',
-      'neutral-green': '#8aaa9c',
-      'white': '#fff'
+      'medium-green': '#9cbca4',
+      'dark-green': '#8aaa9c',
+      white: '#fff'
     },
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }
-

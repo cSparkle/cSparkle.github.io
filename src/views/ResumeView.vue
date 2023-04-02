@@ -1,8 +1,8 @@
 <template>
-  <div class="text-dark-grey">
-    <h2 class="text-4xl text-center font-mono text-bright-green mb-4">Resume</h2>
+  <div class="text-light-grey">
+    <h1 class="text-4xl text-center font-mono text-bright-green mb-4">Resumé</h1>
     <section class="p-4">
-      <h3 class="text-xl font-mono border-b-2 border-light-grey">Objective</h3>
+      <h2 class="text-xl text-white font-mono border-b-2 border-light-grey">Objective</h2>
       <p class="font-sans pt-4">
         Full Stack Software Engineer looking for a place where I can utilize my expertise in web
         engineering and consulting to provide innovative solutions that help businesses achieve
@@ -13,15 +13,17 @@
       </p>
     </section>
     <section class="p-4">
-      <h3 class="text-xl font-mono border-b-2 border-light-grey">Professional Experience</h3>
+      <h2 class="text-xl text-white font-mono border-b-2 border-light-grey">
+        Professional Experience
+      </h2>
       <div class="pt-4">
-        <h4 class="font-mono font-bold">Nexient, an NTT Data Company</h4>
+        <h3 class="text-bright-green font-mono font-bold">Nexient, an NTT Data Company</h3>
         <p class="font-sans">
           Worked as part of a six-person team to add roughly $34M ROI revenue across four new
           eCommerce site features by diligently refining requirements from product and quickly
           delivering ready-to-ship code in an Agile fashion.
         </p>
-        <h5 class="pt-12 font-bold font-sans">Senior Software Engineer</h5>
+        <h4 class="text-white pt-12 font-bold font-sans">Senior Software Engineer</h4>
         <p class="font-sans">October 2022- Present</p>
         <ul class="p-4 list-disc font-sans">
           <li>
@@ -48,7 +50,7 @@
             Standards
           </li>
         </ul>
-        <h5 class="pt-12 font-bold font-sans">Software Engineer</h5>
+        <h4 class="text-white pt-12 font-bold font-sans">Software Engineer</h4>
         <p class="font-sans">April 2021 - October 2022</p>
         <ul class="p-4 list-disc font-sans">
           <li>
@@ -66,12 +68,12 @@
         </ul>
       </div>
       <div class="pt-8">
-        <h4 class="font-mono font-bold">RokkinCat</h4>
+        <h3 class="text-bright-green font-mono font-bold">RokkinCat</h3>
         <p class="font-sans">
           Lead multiple client projects and developed new apps using Ionic with Angular or React for
           cross-platform, mobile, PWA experiences.
         </p>
-        <h5 class="pt-12 font-bold font-sans">Software Engineer</h5>
+        <h4 class="text-white pt-12 font-bold font-sans">Software Engineer</h4>
         <p class="font-sans">January 2019 - April 2021</p>
         <ul class="p-4 list-disc font-sans">
           <li>
@@ -87,26 +89,26 @@
       </div>
     </section>
     <section class="p-4">
-      <h3 class="text-xl font-mono border-b-2 border-light-grey">Education</h3>
+      <h2 class="text-xl text-white font-mono border-b-2 border-light-grey">Education</h2>
       <div class="pt-4">
-        <h4 class="font-mono font-bold">Capella University</h4>
+        <h3 class="text-bright-green font-mono font-bold">Capella University</h3>
         <p class="font-sans">Summa Cum Laude 2017</p>
         <p class="font-sans">Bachelors of Science in Applied Behavioral Psychology</p>
       </div>
       <div class="pt-8">
-        <h4 class="font-mono font-bold">Thinkful (f.k.a. Bloc)</h4>
+        <h3 class="text-bright-green font-mono font-bold">Thinkful (f.k.a. Bloc)</h3>
         <p class="font-sans">2018</p>
         <p class="font-sans">Full Stack React & Node Bootcamp</p>
       </div>
     </section>
     <section class="p-4">
-      <h3 class="text-xl font-mono border-b-2 border-light-grey">Skills</h3>
+      <h2 class="text-xl text-white font-mono border-b-2 border-light-grey">Skills</h2>
       <p class="pt-4">
         The skills within each category are in descending order based on years of practice and
         fluency
       </p>
       <div>
-        <h4 class="font-mono font-bold pt-4">Languages</h4>
+        <h3 class="text-bright-green font-mono font-bold pt-4">Languages</h3>
         <ul class="p-4 list-disc font-sans">
           <li>JavaScript</li>
           <li>HTML5</li>
@@ -118,7 +120,7 @@
         </ul>
       </div>
       <div>
-        <h4 class="font-mono font-bold pt-4">Frameworks</h4>
+        <h3 class="text-bright-green font-mono font-bold pt-4">Frameworks</h3>
         <ul class="p-4 list-disc font-sans">
           <li>Vue 2 & 3</li>
           <li>Angular 5+</li>
@@ -129,7 +131,7 @@
         </ul>
       </div>
       <div>
-        <h4 class="font-mono font-bold pt-4">Tooling</h4>
+        <h3 class="text-bright-green font-mono font-bold pt-4">Tooling</h3>
         <ul class="p-4 list-disc font-sans">
           <li>Jenkins</li>
           <li>ESLint</li>
@@ -138,7 +140,7 @@
         </ul>
       </div>
       <div>
-        <h4 class="font-mono font-bold pt-4">Services</h4>
+        <h3 class="text-bright-green font-mono font-bold pt-4">Services</h3>
         <ul class="p-4 list-disc font-sans">
           <li>GitHub</li>
           <li>Jira & Confluence</li>

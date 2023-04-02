@@ -1,8 +1,8 @@
 <template>
-  <header class="h-20 w-screen fixed">
-    <nav class="flex justify-between items-center p-4 bg-white">
+  <header class="h-20 w-screen fixed bg-dark-grey">
+    <nav class="flex justify-between items-center p-4">
       <img
-        src="../assets/images/cat-logo.jpg"
+        src="../assets/images/cat-logo.svg"
         alt="vector drawing of cat in spacesuit floating through space"
         class="h-16"
       />
@@ -13,7 +13,7 @@
           class="font-sans font-medium"
           :class="{
             'text-bright-green': activeTab === 'home',
-            'text-dark-grey': activeTab !== 'home'
+            'text-light-grey': activeTab !== 'home'
           }"
           @click.prevent="setActiveTab('home')"
           >Home</RouterLink
@@ -23,17 +23,17 @@
           class="font-sans font-medium"
           :class="{
             'text-bright-green': activeTab === 'resume',
-            'text-dark-grey': activeTab !== 'resume'
+            'text-light-grey': activeTab !== 'resume'
           }"
           @click.prevent="setActiveTab('resume')"
-          >Resume</RouterLink
+          >Resumé</RouterLink
         >
         <RouterLink
           to="/contact"
           class="font-sans font-medium"
           :class="{
             'text-bright-green': activeTab === 'contact',
-            'text-dark-grey': activeTab !== 'contact'
+            'text-light-grey': activeTab !== 'contact'
           }"
           @click.prevent="setActiveTab('contact')"
           >Contact</RouterLink
