@@ -11,7 +11,7 @@
           class="text-xl text-bright-green flex items-center"
           >LinkedIn
           <img
-            src="src/assets/icons/external-link.png"
+            src="@/assets/icons/external-link.png"
             alt="icon indicating this links to an external site"
             class="h-4 pl-1"
           /> </a
@@ -28,7 +28,7 @@
         >
           my GitHub profile
           <img
-            src="src/assets/icons/external-link.png"
+            src="@/assets/icons/external-link.png"
             alt="icon indicating this links to an external site"
             class="h-4 pl-1"
         /></a>
