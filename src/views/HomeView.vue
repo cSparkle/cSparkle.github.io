@@ -8,14 +8,14 @@
       >
         <a href="#engineer" class="flex flex-col items-center justify-center w-fit">
           <img
-            src="../assets/images/developer.svg"
+            src="@/assets/images/developer.svg"
             alt="top down vector drawing of hands coding on a laptop"
             class="w-64"
           />
           <p class="text-bright-green font-sans font-medium text-xl flex items-center">
             Software Engineer
             <img
-              src="../assets/icons/arrow-right-solid.svg"
+              src="@/assets/icons/arrow-right-solid.svg"
               alt="right arrow"
               aria-label="go to Software Engineer section"
               class="h-6 ml-2.5"
@@ -24,14 +24,14 @@
         </a>
         <a href="#bookworm" class="flex flex-col items-center justify-center my-16 w-fit">
           <img
-            src="../assets/images/bookworm.svg"
+            src="@/assets/images/bookworm.svg"
             alt="front on vector drawing of glasses on top of stacked books next to a coffee mug"
             class="w-64"
           />
           <p class="text-bright-green font-sans font-medium text-xl flex items-center">
             Bookworm
             <img
-              src="../assets/icons/arrow-right-solid.svg"
+              src="@/assets/icons/arrow-right-solid.svg"
               aria-label="go to Bookworm section"
               alt="right arrow"
               class="h-6 ml-2.5"
@@ -40,14 +40,14 @@
         </a>
         <a href="#nerd" class="flex flex-col items-center justify-center my-16 w-fit">
           <img
-            src="../assets/images/fantasynerd.svg"
+            src="@/assets/images/fantasynerd.svg"
             alt="vector drawing of four costumed individuals at a gaming convention"
             class="w-64 md:pb-12"
           />
           <p class="text-bright-green font-sans font-medium text-xl flex items-center">
             Fantasy Nerd
             <img
-              src="../assets/icons/arrow-right-solid.svg"
+              src="@/assets/icons/arrow-right-solid.svg"
               aria-label="go to Fantasy Nerd section"
               alt="right arrow"
               class="h-6 ml-2.5"
