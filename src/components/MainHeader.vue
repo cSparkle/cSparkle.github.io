@@ -7,7 +7,7 @@
         class="h-16"
       />
 
-      <ul class="w-3/5 sm:w-2/5 lg:w-4/12 flex justify-between">
+      <ul class="w-3/5 sm:w-2/5 lg:w-4/12 2xl:w-1/6 2xl:mr-12 flex justify-between">
         <RouterLink
           to="/"
           class="font-sans font-medium"

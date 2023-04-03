@@ -3,7 +3,9 @@
     <h1 class="text-4xl text-center font-mono text-bright-green">Howdy, friend</h1>
     <p class="text-3xl text-center font-sans mb-12 text-white">The name's Cortney.</p>
     <section class="flex flex-col items-center">
-      <div class="md:flex md:flex-row items-baseline w-full lg:justify-around">
+      <div
+        class="flex flex-col items-center md:flex-row md:items-baseline w-full lg:justify-around max-w-5xl"
+      >
         <a href="#engineer" class="flex flex-col items-center justify-center w-fit">
           <img
             src="../assets/images/developer.svg"
@@ -55,11 +57,11 @@
       </div>
 
       <section class="bg-bright-green py-12 px-4 w-full">
-        <div id="engineer" class="pt-28 lg:flex lg:flex-col lg:items-center">
-          <h2 class="text-center text-2xl lg:text-3xl font-mono font-medium text-dark-grey">
+        <div id="engineer" class="pt-28 flex flex-col items-center">
+          <h2 class="text-center text-3xl font-mono font-medium text-dark-grey">
             Software Engineer
           </h2>
-          <p class="font-sans pt-8 indent-12 lg:max-w-2xl lg:text-xl lg:leading-10">
+          <p class="font-sans pt-8 indent-12 max-w-2xl text-xl leading-10">
             I've been programming for nearly five years as a consultant in enterprise, startup, and
             educational sectors. I love all aspects of the development process, and I've done just
             about everything from creating and implementing UI designs to setting up databases and
@@ -76,35 +78,32 @@
             />
           </div>
         </div>
-        <div id="bookworm" class="pt-20 lg:flex lg:flex-col lg:items-center">
-          <h2 class="text-center text-2xl lg:text-3xl font-mono font-medium text-dark-grey mt-16">
-            Bookworm
-          </h2>
-          <p class="font-sans pt-8 indent-12 lg:max-w-2xl lg:text-xl lg:leading-10">
+        <div id="bookworm" class="pt-20 flex flex-col items-center">
+          <h2 class="text-center text-3xl font-mono font-medium text-dark-grey mt-16">Bookworm</h2>
+          <p class="font-sans pt-8 indent-12 max-w-2xl text-xl leading-10">
             I love to read, especially fantasy and sci-fi, but I'm already regularly reading
             software books to stay on the cutting edge of the field. Without a doubt, The Lord of
             the Rings is my favorite book, and I re-read it every few years along with The Hobbit
             and The Silmarillion to get even more immersed in the Tolkien-verse. Right now, I'm
             reading:
           </p>
-          <ul class="flex flex-col items-center mt-6">
-            <li class="font-sans lg:text-xl">
-              <strong class="font-sans lg:text-xl">The Wheel of Time</strong>, by Robert Jordan
-              (curently on book 7)
+          <ul class="flex flex-col items-center mt-6 text-center">
+            <li class="font-sans text-xl pb-4">
+              <strong class="font-sans text-xl">The Wheel of Time</strong>, by Robert Jordan
             </li>
-            <li class="font-sans lg:text-xl">
-              <strong class="font-sans lg:text-xl">Mindset</strong>, by Carol Dweck
+            <li class="font-sans text-xl pb-4">
+              <strong class="font-sans text-xl">Mindset</strong>, by Carol Dweck
             </li>
-            <li class="font-sans lg:text-xl">
-              <strong class="font-sans lg:text-xl">The Clean Coder</strong>, by Robert C. Martin
+            <li class="font-sans text-xl">
+              <strong class="font-sans text-xl">The Clean Coder</strong>, by Robert C. Martin
             </li>
           </ul>
         </div>
-        <div id="nerd" class="pt-20 pb-20 lg:flex lg:flex-col lg:items-center">
-          <h2 class="text-center text-2xl lg:text-3xl font-mono font-medium text-dark-grey mt-16">
+        <div id="nerd" class="pt-20 pb-20 flex flex-col items-center">
+          <h2 class="text-center text-3xl font-mono font-medium text-dark-grey mt-16">
             Fantasy Nerd!
           </h2>
-          <p class="font-sans pt-8 indent-12 lg:max-w-2xl lg:text-xl lg:leading-10">
+          <p class="font-sans pt-8 indent-12 max-w-2xl text-xl leading-10">
             Ever since I was young I've been immersed in all types of fantasy worlds. I love reading
             fantasy books, playing fantasy video and board games, and watching fantasy shows and
             movies. In the last few years, my friends and I have gotten into D&D, playing a home
