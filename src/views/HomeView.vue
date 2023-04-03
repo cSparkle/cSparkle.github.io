@@ -70,9 +70,9 @@
           </p>
           <div class="flex flex-wrap items-center justify-around my-6 lg:max-w-2xl">
             <img
-              v-for="(icon, index) in softwareIcons"
+              v-for="(icon, index) in softwareIconUrls"
               class="h-16 m-4 lg:h-20"
-              :src="`/assets/icons/${icon}.png`"
+              :src="icon"
               :alt="`${icon} framework logo`"
               :key="index"
             />
@@ -120,6 +120,7 @@ export default {
   name: 'HomeView',
   data() {
     return {
+      softwareIconUrls: [],
       softwareIcons: [
         'angular',
         'react',
@@ -135,6 +136,16 @@ export default {
         'git'
       ]
     }
+  },
+  methods: {
+    createImageUrls() {
+      this.softwareIcons.forEach((icon) => {
+        this.softwareIconUrls.push(new URL(`/src/assets/icons/${icon}.png`, import.meta.url))
+      })
+    }
+  },
+  beforeMount() {
+    this.createImageUrls()
   }
 }
 </script>

@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
-  font-size: 18px;
 }
 
 #app {
   background-color: #1b2f34;
+  font-size: 18px;
 }
