@@ -1,5 +1,5 @@
 <template>
-  <header class="h-24 w-screen sticky top-0 bg-dark-grey p-4">
+  <header class="h-24 w-full sticky top-0 bg-dark-grey p-4">
     <nav class="flex justify-between items-center">
       <img
         src="../assets/images/cat-logo.svg"
@@ -7,7 +7,7 @@
         class="h-16"
       />
 
-      <ul class="w-3/5 flex justify-between">
+      <ul class="w-3/5 sm:w-2/5 lg:w-4/12 flex justify-between">
         <RouterLink
           to="/"
           class="font-sans font-medium"
