@@ -72,7 +72,7 @@
             <img
               v-for="(icon, index) in softwareIcons"
               class="h-16 m-4 lg:h-20"
-              :src="`@/assets/icons/${icon}.png`"
+              :src="`/assets/icons/${icon}.png`"
               :alt="`${icon} framework logo`"
               :key="index"
             />
