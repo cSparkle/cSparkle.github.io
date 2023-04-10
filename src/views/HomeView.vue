@@ -116,6 +116,8 @@
 </template>
 
 <script>
+import { getPosts } from '../services/contentful'
+
 export default {
   name: 'HomeView',
   data() {
@@ -146,6 +148,9 @@ export default {
   },
   beforeMount() {
     this.createImageUrls()
+  },
+  created() {
+    getPosts()
   }
 }
 </script>

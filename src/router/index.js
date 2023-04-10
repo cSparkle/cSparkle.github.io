@@ -10,6 +10,11 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/blog',
+      name: 'blog',
+      component: () => import('../views/BlogView.vue')
+    },
+    {
       path: '/resume',
       name: 'resume',
       component: () => import('../views/ResumeView.vue')
@@ -22,7 +27,7 @@ const router = createRouter({
   ],
   scrollBehavior() {
     return { top: 0 }
-  },
+  }
 })
 
 export default router
